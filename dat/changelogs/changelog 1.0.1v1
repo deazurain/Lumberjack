@@ -1,0 +1,8 @@
+=== changelog 1.0.1v1 ===
+
+Note: this version is more recent than the 1.8.1vX versions. 
+
+* + updated for the actual release of Minecraft 1.0.0
+* + thanks to Evenprime85, Lumberjack is now fully compatible with NoCheat. 
+* + duration of items does get reduced but items do not break yet. Enchants with efficiency and/or extra drops will probably not work because I have to mimic the exact actions that take place when a block gets destroyed. I did not yet succeed in this. Any help is welcome :)  
+* + added the server-wide option to disable Lumberjack welcome messages through the configuration file. 

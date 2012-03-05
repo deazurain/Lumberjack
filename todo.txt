@@ -1,0 +1,8 @@
+todo
+
+undo functionality
+chain draw mode
+single draw mode
+vertical line mode with thickness
+horizontal line mode with thickness
+

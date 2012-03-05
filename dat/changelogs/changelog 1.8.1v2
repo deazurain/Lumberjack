@@ -1,0 +1,10 @@
+=== changelog 1.8.1v2 ===
+
+* + compatible with craftbukkit 1317
+* + big changes to tree detection alghorithms
+** different alghorithms for oak and birch trees
+** now requires that the tree grows on a dirt block
+** now requires that leaves around the tree were grown naturally
+* + more efficient because the last chopped tree is stored in memory
+* + can chop complete trees because of the above; trees in memory do not have to meet the requirements anymore
+

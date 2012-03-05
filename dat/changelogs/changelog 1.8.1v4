@@ -1,0 +1,3 @@
+=== changelog 1.8.1v4 ===
+
+* + fires an event when the highest block is broken to increase compatibility with other plugins

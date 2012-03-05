@@ -1,0 +1,4 @@
+=== changelog 1.8.1v5 ===
+
+* - 1.8.1v4 debug messages (minus sign stands for 'removed')
+* + saving of player settings on disk! Even when the server restarts, your settings will still be how they were when you logged off

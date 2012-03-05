@@ -1,0 +1,34 @@
+name: Lumberjack
+main: nl.mightydev.lumberjack.Plugin
+version: 1.0.1v1
+authors: [deazurain]
+website: none
+description: A plugin to chop down big trees without having to climb them.
+
+commands:
+  lumberjack:
+    aliases: []
+    description: Commands to enable and disable Lumberjack
+    usage: |
+      /<command> enable (e)
+      /<command> disable (d)
+      /<command> silent (s) - hides some of the generated messages
+      /<command> normal (n) - shows all of the generated messages
+      
+permissions:
+  lumberjack.*:
+    default: op
+    description: Allows the use of all Lumberjack commands
+    children:
+      lumberjack.enable: true
+      lumberjack.disable: true
+  lumberjack.enable:
+    description: Enables Lumberjack
+  lumberjack.disable:
+    description: Disables Lumberjack
+  lumberjack.silent:
+    description: Hides some of the generated messages
+  lumberjack.normal:
+    description: Shows all messages
+        
+        

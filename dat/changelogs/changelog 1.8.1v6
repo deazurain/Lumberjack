@@ -1,0 +1,6 @@
+=== changelog 1.8.1v6 ===
+
+* + option for mcMMO support, disabling it will improve efficiency. It is enabled by default
+* + detects fake block break events created by mcMMO (ticket 7)
+* + refreshes tree blocks when a block break fires ensure non corrupted chunk data (ticket 10)
+* + global instant tree break option under the name 'full_break' in the configuration, defaults to false (ticket 8)

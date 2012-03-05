@@ -1,0 +1,5 @@
+=== changelog 1.8.1v3 ===
+
+* + added a configuration file to set some default values called 'lumberjack.config'
+** enabled - should be set to true if Lumberjack should be enabled for new players
+** silent - should be set to true if you want to hide most of Lumberjacks' messages

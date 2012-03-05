@@ -1,0 +1,37 @@
+
+<project name="Lumberjack" default="export" basedir=".">
+	
+	<target name="pack">
+		
+		<mkdir dir="jar" />
+	
+		<mkdir dir="jar/build" />
+		
+		<copy todir="jar/build">
+			<fileset dir="bin" >
+				<include name="**/*.class" />
+			</fileset>
+			<fileset dir="dat">
+				<include name="*" />
+			</fileset>
+		</copy>
+	
+		<jar destfile="jar/Lumberjack.jar" basedir="jar/build">
+			<manifest>
+				<attribute name="Main-class" value="nl.mightydev.lumberjack.Main"/>
+			</manifest>
+		</jar>
+		
+		<delete dir="jar/build" />
+	
+	</target>
+			
+	<target name="export" depends="pack">
+		
+		<property name="export.dir" value="/home/mick/craftbukkit-1.0.1-R1/plugins" />
+		
+		<copy todir="${export.dir}" file="jar/Lumberjack.jar" />
+		<mkdir dir="${export.dir}/Lumberjack" />
+	</target>
+
+</project>
